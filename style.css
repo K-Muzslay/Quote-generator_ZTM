@@ -97,6 +97,10 @@ body {
   color: rgb(102, 255, 0);
   background-color: #465347b2;
 }
+#twitter:active,
+#new-quote:active {
+  transform: translate(0, 0.3rem);
+}
 #twitter i {
   font-size: 1.5rem;
 }
