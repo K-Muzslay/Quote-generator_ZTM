@@ -60,13 +60,13 @@ body {
 .quote-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 5rem;
   justify-items: start;
   width: 90vw;
   max-width: 80rem;
   border: 1px solid rgb(102, 255, 0);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 3rem 2rem;
   background-color: rgba(0, 0, 0, 0.479);
 }
 .quote-text {
@@ -80,7 +80,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-top: 2rem;
 }
 #twitter,
 #new-quote {
@@ -103,4 +102,7 @@ body {
 }
 #twitter i {
   font-size: 1.5rem;
+}
+.long-quote {
+  font-size: 1rem;
 }
